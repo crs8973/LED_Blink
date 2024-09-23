@@ -1,1 +1,1 @@
-#LED Blink repository that contains the updated SOS code. 
+LED Blink repository that contains the updated SOS code. 
