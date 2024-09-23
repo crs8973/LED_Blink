@@ -1,6 +1,6 @@
 /* 
  * Project myProject
- * Author: Camille Sullivan
+ * Author: Camille Sullivan and Bentley Settin
  * Date: 9-23-24
  * For comprehensive documentation and examples, please visit:
  * https://docs.particle.io/firmware/best-practices/firmware-template/
@@ -39,16 +39,93 @@ void setup()
 void loop()
 {
 	// Turn on the LED
+//FAST1
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(1s);
+
+	// Turn it off 
+	digitalWrite(MY_LED, LOW);
+
+	//delay(1s);
+	
+//FAST2
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(1s);
+
+	// Turn it off
+	digitalWrite(MY_LED, LOW);
+
+//FAST3
+
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(1s);
+
+	// Turn it off
+	digitalWrite(MY_LED, LOW);
+
+//SLOW1
 	digitalWrite(MY_LED, HIGH);
 
 	// Leave it on for one second
 	delay(3s);
 
+	// Turn it off 
+	digitalWrite(MY_LED, LOW);
+
+//SLOW2
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(3s);
+
+	// Turn it off 
+	digitalWrite(MY_LED, LOW);
+
+//SLOW3
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(3s);
+
+	// Turn it off 
+	digitalWrite(MY_LED, LOW);
+
+
+//FAST1
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(1s);
+
+	// Turn it off 
+	digitalWrite(MY_LED, LOW);
+	
+//FAST2
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
+	delay(1s);
+
 	// Turn it off
 	digitalWrite(MY_LED, LOW);
 
-	// Wait one more second
+//FAST3
+
+	digitalWrite(MY_LED, HIGH);
+
+	// Leave it on for one second
 	delay(1s);
+
+	// Turn it off
+	digitalWrite(MY_LED, LOW);
+
+
 
 	// And repeat!
 }
